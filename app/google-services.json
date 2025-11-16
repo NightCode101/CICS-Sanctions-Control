@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "1011274220898",
+    "firebase_url": "https://sanction-control-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "sanction-control",
+    "storage_bucket": "sanction-control.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011274220898:android:7074bf01617047f82ad83b",
+        "android_client_info": {
+          "package_name": "cics.csup.sanctionscontrol"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiovgD5HZ8Fk3nZk_egWjBi2G64XkDX3M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011274220898:android:21dbc0507259289b2ad83b",
+        "android_client_info": {
+          "package_name": "cics.csup.sanctionsscontrol"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiovgD5HZ8Fk3nZk_egWjBi2G64XkDX3M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

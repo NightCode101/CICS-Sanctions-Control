@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">CICS Sanctions Control</string>
+    <string name="creator_credit">💗 Created by: Jeylo Baoit</string>
+
+    <string-array name="sections_array">
+        <item>All Sections</item>
+        <item>1A</item>
+        <item>1B</item>
+        <item>1C</item>
+        <item>1D</item>
+        <item>2A</item>
+        <item>2B</item>
+        <item>2C</item>
+        <item>3A</item>
+        <item>3B</item>
+        <item>3C</item>
+        <item>4A</item>
+        <item>4B</item>
+        <item>4C</item>
+    </string-array>
+    <string-array name="add_user_sections_array">
+        <item>Select a Section</item>
+        <item>1A</item>
+        <item>1B</item>
+        <item>1C</item>
+        <item>1D</item>
+        <item>2A</item>
+        <item>2B</item>
+        <item>2C</item>
+        <item>3A</item>
+        <item>3B</item>
+        <item>3C</item>
+        <item>4A</item>
+        <item>4B</item>
+        <item>4C</item>
+    </string-array>
+
+    <string name="total_bottles_format">Total Bottles: %1$d</string>
+    <string name="total_passed_format">Total Passed: %1$d</string>
+    <string name="total_bottles_placeholder">Total Bottles: 0</string>
+    <string name="total_passed_placeholder">Total Passed: 0</string>
+    <string name="hint_section">Section</string>
+    <string name="default_all_sections">All Sections</string>
+    <string name="hint_search_by_name">Search by name...</string>
+    <string name="empty_list_message">No users found in this section.</string>
+    <string name="fab_add_user">Add User</string>
+
+    <string name="list_item_name_format">Name: %1$s</string>
+    <string name="list_item_total_sanctions_format">Total Sanctions: %1$d</string>
+    <string name="list_item_passed_bottles_format">Passed Bottles: %1$d</string>
+    <string name="list_item_to_be_pass_format">To Be Pass: %1$d</string>
+    <string name="button_edit">Edit</string>
+
+    <string name="dialog_add_title">Add New User</string>
+    <string name="hint_user_name">User Name</string>
+    <string name="hint_total_sanctions">Total Sanctions (Bottles)</string>
+
+    <string name="dialog_edit_title_format">Edit User: %1$s</string>
+    <string name="hint_add_passed">Add Passed Bottles (e.g., 5)</string>
+    <string name="hint_remove_passed">Remove Passed Bottles (e.g., 2)</string>
+    <string name="dialog_edit_admin_title">Edit Total Sanctions (Admin)</string>
+    <string name="hint_new_total">New Total</string>
+    <string name="hint_admin_password">Admin Password</string>
+
+    <string name="menu_import">Import Student List (CSV)</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_delete_all">Delete All Data</string>
+
+    <string name="button_add">Add</string>
+    <string name="button_save">Save</string>
+    <string name="button_delete">Delete</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_continue">Continue</string>
+
+    <string name="toast_user_updated">User Updated</string>
+    <string name="toast_user_deleted">User deleted</string>
+    <string name="toast_all_data_deleted">All data has been deleted.</string>
+    <string name="toast_batch_success">Batch %1$d success!</string>
+    <string name="toast_refreshing">Refreshing...</string>
+    <string name="toast_deleting_all">Deleting all data...</string>
+
+    <string name="toast_password_empty">Password cannot be empty</string>
+    <string name="toast_wrong_admin_password">Wrong Admin Password!</string>
+    <string name="toast_wrong_deletion_password">Wrong Deletion Password!</string>
+    <string name="toast_password_check_error">Error checking password</string>
+    <string name="toast_name_empty">Please enter a name</string>
+    <string name="toast_sanctions_empty">Please enter total sanctions</string>
+    <string name="toast_section_empty">Please select a section</string>
+    <string name="toast_update_failed">Update Failed</string>
+    <string name="toast_admin_pass_required_total">Admin password required to change total</string>
+    <string name="toast_invalid_number_total">Invalid number for total</string>
+    <string name="toast_delete_user_error">Error deleting user</string>
+    <string name="toast_admin_pass_required_delete">Admin password required to delete</string>
+    <string name="toast_no_data_to_delete">No data to delete.</string>
+    <string name="toast_delete_batch_error">Error deleting batch %1$d</string>
+    <string name="toast_delete_get_data_failed">Failed to get data for deletion.</string>
+    <string name="toast_csv_read_error">Error reading file.</string>
+    <string name="toast_csv_no_users">No valid users found in file.</string>
+    <string name="toast_batch_failed">Batch %1$d FAILED</string>
+
+    <string name="dialog_admin_title">Admin Access Required</string>
+    <string name="dialog_delete_user_title">Delete User</string>
+    <string name="dialog_delete_all_title_danger">DANGER: Admin Access Required</string>
+    <string name="dialog_delete_all_confirm_title">ARE YOU ABSOLUTELY SURE?</string>
+
+    <string name="dialog_import_message">Please enter the admin password to import a new list.</string>
+    <string name="dialog_delete_user_message">Are you sure you want to delete %1$s? This cannot be undone.</string>
+    <string name="dialog_delete_all_message">Enter the admin password to proceed with deleting all data.</string>
+    <string name="dialog_delete_all_confirm_message_all">This will delete ALL student data (%1$d users). This action cannot be undone.</string>
+    <string name="dialog_delete_all_confirm_message_section">This will delete all %1$d students in section %2$s. This action cannot be undone.</string>
+
+    <string name="dialog_delete_all_confirm_button_all">DELETE ALL DATA</string>
+    <string name="dialog_delete_all_confirm_button_section">DELETE SECTION %1$s</string>
+
+</resources>
